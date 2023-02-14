@@ -1,10 +1,8 @@
-package com.fastcampus.javaoop;
+package com.fastcampus.springpractice;
 
-import com.fastcampus.javaoop.logic.BubbleSort;
-import com.fastcampus.javaoop.logic.JavaSort;
-import com.fastcampus.javaoop.logic.Sort;
+import com.fastcampus.springpractice.logic.JavaSort;
+import com.fastcampus.springpractice.logic.Sort;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
   public static void main(String[] args) {
