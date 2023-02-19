@@ -3,7 +3,9 @@ package com.fastcampus.springpractice.logic;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import org.springframework.stereotype.Component;
 
+@Component  // 빈으로 등록
 public class JavaSort <T extends Comparable<T>> implements Sort<T> {
 
   // interface : List<T> sort(List<T> list);
